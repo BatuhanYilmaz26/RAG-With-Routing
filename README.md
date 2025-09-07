@@ -2,6 +2,8 @@
 
 Streamlit app for retrieval-augmented generation (RAG) with multi-database routing, OCR ingestion, and a resilient web fallback.
 
+![RAG-With-Routing demo](RAG-With-Routing.gif)
+
 - Vector store: Qdrant (3 logical DBs: products, support, finance)
 - Embeddings/LLM: Gemini (Google Generative AI) with sentence-transformers fallback for embeddings
   - Chat model: gemini-2.5-flash (temperature=0)
