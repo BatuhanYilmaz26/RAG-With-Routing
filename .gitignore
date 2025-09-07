@@ -1,0 +1,81 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.env/
+.python-version
+
+# Dependency/build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.cache/
+
+# Test/coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checker caches
+.mypy_cache/
+.pyre/
+.pyright/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment and secrets (prevent accidental key leaks)
+.env
+.env.*
+*.env
+*.env.*
+*.secret
+*.secrets
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service_account.json
+
+# App runtime artifacts (uploads/temp/data)
+uploads/
+data/
+.ingest/
+ingest/
+/tmp/
+*.tmp
+*.temp
+
+# Qdrant/local configs (if any)
+qdrant.yml
+qdrant.yaml
+.qdrant/
